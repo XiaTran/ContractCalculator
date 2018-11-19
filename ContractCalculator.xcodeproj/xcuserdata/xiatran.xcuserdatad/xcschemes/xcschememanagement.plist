@@ -7,7 +7,25 @@
 		<key>ContractCalculator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CD07D588215BC19C0039AFE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD6FE4C5215B9BA700BA8AFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDC45EAA2084A4D300D59D9E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

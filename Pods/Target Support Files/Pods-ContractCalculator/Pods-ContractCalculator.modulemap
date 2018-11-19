@@ -1,0 +1,6 @@
+framework module Pods_ContractCalculator {
+  umbrella header "Pods-ContractCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

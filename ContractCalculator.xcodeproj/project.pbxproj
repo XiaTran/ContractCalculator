@@ -7,18 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8D1608244D48A272853E92E /* Pods_ContractCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4C7E59AB67FE13449F179 /* Pods_ContractCalculator.framework */; };
 		CD210B1A2088FC26006A72E1 /* PersonalEarningsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD210B192088FC26006A72E1 /* PersonalEarningsViewController.swift */; };
 		CD37B5C9209376F900D82824 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD37B5C8209376F900D82824 /* DisclaimerViewController.swift */; };
+		CD6FE4B8215B904A00BA8AFB /* LimitedCompanyCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FE4B7215B904A00BA8AFB /* LimitedCompanyCalculations.swift */; };
+		CD6FE4BB215B93EF00BA8AFB /* PersonalEarningCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FE4BA215B93EF00BA8AFB /* PersonalEarningCalculations.swift */; };
 		CDC45EAF2084A4D300D59D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC45EAE2084A4D300D59D9E /* AppDelegate.swift */; };
 		CDC45EB12084A4D300D59D9E /* LimitedCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC45EB02084A4D300D59D9E /* LimitedCompanyViewController.swift */; };
 		CDC45EB42084A4D300D59D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC45EB22084A4D300D59D9E /* Main.storyboard */; };
 		CDC45EB62084A4D400D59D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC45EB52084A4D400D59D9E /* Assets.xcassets */; };
 		CDC45EB92084A4D400D59D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC45EB72084A4D400D59D9E /* LaunchScreen.storyboard */; };
+		CDDEA6A220FF8CA20032FEB8 /* buttonAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDEA6A120FF8CA20032FEB8 /* buttonAction.swift */; };
+		CDDEA6A52101E5F50032FEB8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDEA6A42101E5F50032FEB8 /* GoogleMobileAds.framework */; };
+		CDDEA6A72101E60A0032FEB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDDEA6A62101E60A0032FEB8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CD07D58E215BC19C0039AFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC45EA32084A4D300D59D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC45EAA2084A4D300D59D9E;
+			remoteInfo = ContractCalculator;
+		};
+		CD6FE4CB215B9BA800BA8AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC45EA32084A4D300D59D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC45EAA2084A4D300D59D9E;
+			remoteInfo = ContractCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7D872DF2953578A82E5973F5 /* Pods-ContractCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContractCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContractCalculator/Pods-ContractCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		7FCCE8CC870D18772E12CF7E /* Pods-ContractCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContractCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContractCalculator/Pods-ContractCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		CD07D589215BC19C0039AFE5 /* ContractCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContractCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD210B192088FC26006A72E1 /* PersonalEarningsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalEarningsViewController.swift; sourceTree = "<group>"; };
 		CD37B5C8209376F900D82824 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		CD6FE4B7215B904A00BA8AFB /* LimitedCompanyCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedCompanyCalculations.swift; sourceTree = "<group>"; };
+		CD6FE4BA215B93EF00BA8AFB /* PersonalEarningCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalEarningCalculations.swift; sourceTree = "<group>"; };
+		CD6FE4C6215B9BA700BA8AFB /* ContractCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContractCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC45EAB2084A4D300D59D9E /* ContractCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContractCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC45EAE2084A4D300D59D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC45EB02084A4D300D59D9E /* LimitedCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedCompanyViewController.swift; sourceTree = "<group>"; };
@@ -26,24 +55,64 @@
 		CDC45EB52084A4D400D59D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC45EB82084A4D400D59D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC45EBA2084A4D400D59D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDEA6A120FF8CA20032FEB8 /* buttonAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonAction.swift; sourceTree = "<group>"; };
+		CDDEA6A42101E5F50032FEB8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		CDDEA6A62101E60A0032FEB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAB4C7E59AB67FE13449F179 /* Pods_ContractCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContractCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDC45EA82084A4D300D59D9E /* Frameworks */ = {
+		CD07D586215BC19C0039AFE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD6FE4C3215B9BA700BA8AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC45EA82084A4D300D59D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDEA6A52101E5F50032FEB8 /* GoogleMobileAds.framework in Frameworks */,
+				C8D1608244D48A272853E92E /* Pods_ContractCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FA333591D1E54BBAEEAF89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCE8CC870D18772E12CF7E /* Pods-ContractCalculator.debug.xcconfig */,
+				7D872DF2953578A82E5973F5 /* Pods-ContractCalculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD6FE4B9215B93CD00BA8AFB /* PersonalEarnings */ = {
+			isa = PBXGroup;
+			children = (
+				CD210B192088FC26006A72E1 /* PersonalEarningsViewController.swift */,
+				CD6FE4BA215B93EF00BA8AFB /* PersonalEarningCalculations.swift */,
+			);
+			path = PersonalEarnings;
+			sourceTree = "<group>";
+		};
 		CDC45EA22084A4D300D59D9E = {
 			isa = PBXGroup;
 			children = (
 				CDC45EAD2084A4D300D59D9E /* ContractCalculator */,
 				CDC45EAC2084A4D300D59D9E /* Products */,
+				2FA333591D1E54BBAEEAF89D /* Pods */,
+				E5390C34D5F6A86041AF109A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				CDC45EAB2084A4D300D59D9E /* ContractCalculator.app */,
+				CD6FE4C6215B9BA700BA8AFB /* ContractCalculatorUITests.xctest */,
+				CD07D589215BC19C0039AFE5 /* ContractCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,25 +129,82 @@
 		CDC45EAD2084A4D300D59D9E /* ContractCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CDDEA6A42101E5F50032FEB8 /* GoogleMobileAds.framework */,
 				CDC45EAE2084A4D300D59D9E /* AppDelegate.swift */,
-				CDC45EB02084A4D300D59D9E /* LimitedCompanyViewController.swift */,
-				CD210B192088FC26006A72E1 /* PersonalEarningsViewController.swift */,
+				CDDEA6A32100DE1D0032FEB8 /* limited company */,
+				CD6FE4B9215B93CD00BA8AFB /* PersonalEarnings */,
+				CDDEA6A120FF8CA20032FEB8 /* buttonAction.swift */,
 				CD37B5C8209376F900D82824 /* DisclaimerViewController.swift */,
 				CDC45EB22084A4D300D59D9E /* Main.storyboard */,
 				CDC45EB52084A4D400D59D9E /* Assets.xcassets */,
 				CDC45EB72084A4D400D59D9E /* LaunchScreen.storyboard */,
 				CDC45EBA2084A4D400D59D9E /* Info.plist */,
+				CDDEA6A62101E60A0032FEB8 /* GoogleService-Info.plist */,
 			);
 			path = ContractCalculator;
+			sourceTree = "<group>";
+		};
+		CDDEA6A32100DE1D0032FEB8 /* limited company */ = {
+			isa = PBXGroup;
+			children = (
+				CDC45EB02084A4D300D59D9E /* LimitedCompanyViewController.swift */,
+				CD6FE4B7215B904A00BA8AFB /* LimitedCompanyCalculations.swift */,
+			);
+			path = "limited company";
+			sourceTree = "<group>";
+		};
+		E5390C34D5F6A86041AF109A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4C7E59AB67FE13449F179 /* Pods_ContractCalculator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CD07D588215BC19C0039AFE5 /* ContractCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD07D592215BC19C0039AFE5 /* Build configuration list for PBXNativeTarget "ContractCalculatorTests" */;
+			buildPhases = (
+				CD07D585215BC19C0039AFE5 /* Sources */,
+				CD07D586215BC19C0039AFE5 /* Frameworks */,
+				CD07D587215BC19C0039AFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD07D58F215BC19C0039AFE5 /* PBXTargetDependency */,
+			);
+			name = ContractCalculatorTests;
+			productName = ContractCalculatorTests;
+			productReference = CD07D589215BC19C0039AFE5 /* ContractCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6FE4C5215B9BA700BA8AFB /* ContractCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6FE4CD215B9BA800BA8AFB /* Build configuration list for PBXNativeTarget "ContractCalculatorUITests" */;
+			buildPhases = (
+				CD6FE4C2215B9BA700BA8AFB /* Sources */,
+				CD6FE4C3215B9BA700BA8AFB /* Frameworks */,
+				CD6FE4C4215B9BA700BA8AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6FE4CC215B9BA800BA8AFB /* PBXTargetDependency */,
+			);
+			name = ContractCalculatorUITests;
+			productName = ContractCalculatorUITests;
+			productReference = CD6FE4C6215B9BA700BA8AFB /* ContractCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CDC45EAA2084A4D300D59D9E /* ContractCalculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC45EBD2084A4D400D59D9E /* Build configuration list for PBXNativeTarget "ContractCalculator" */;
 			buildPhases = (
+				AC152AA34C8E8B7C48A96715 /* [CP] Check Pods Manifest.lock */,
 				CDC45EA72084A4D300D59D9E /* Sources */,
 				CDC45EA82084A4D300D59D9E /* Frameworks */,
 				CDC45EA92084A4D300D59D9E /* Resources */,
@@ -96,12 +224,21 @@
 		CDC45EA32084A4D300D59D9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Xia Tran";
 				TargetAttributes = {
+					CD07D588215BC19C0039AFE5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CDC45EAA2084A4D300D59D9E;
+					};
+					CD6FE4C5215B9BA700BA8AFB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CDC45EAA2084A4D300D59D9E;
+					};
 					CDC45EAA2084A4D300D59D9E = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -119,16 +256,33 @@
 			projectRoot = "";
 			targets = (
 				CDC45EAA2084A4D300D59D9E /* ContractCalculator */,
+				CD6FE4C5215B9BA700BA8AFB /* ContractCalculatorUITests */,
+				CD07D588215BC19C0039AFE5 /* ContractCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CD07D587215BC19C0039AFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FE4C4215B9BA700BA8AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDC45EA92084A4D300D59D9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CDC45EB92084A4D400D59D9E /* LaunchScreen.storyboard in Resources */,
+				CDDEA6A72101E60A0032FEB8 /* GoogleService-Info.plist in Resources */,
 				CDC45EB62084A4D400D59D9E /* Assets.xcassets in Resources */,
 				CDC45EB42084A4D300D59D9E /* Main.storyboard in Resources */,
 			);
@@ -136,19 +290,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC152AA34C8E8B7C48A96715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContractCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		CD07D585215BC19C0039AFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FE4C2215B9BA700BA8AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDC45EA72084A4D300D59D9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6FE4B8215B904A00BA8AFB /* LimitedCompanyCalculations.swift in Sources */,
 				CDC45EB12084A4D300D59D9E /* LimitedCompanyViewController.swift in Sources */,
+				CD6FE4BB215B93EF00BA8AFB /* PersonalEarningCalculations.swift in Sources */,
 				CD37B5C9209376F900D82824 /* DisclaimerViewController.swift in Sources */,
 				CDC45EAF2084A4D300D59D9E /* AppDelegate.swift in Sources */,
 				CD210B1A2088FC26006A72E1 /* PersonalEarningsViewController.swift in Sources */,
+				CDDEA6A220FF8CA20032FEB8 /* buttonAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD07D58F215BC19C0039AFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC45EAA2084A4D300D59D9E /* ContractCalculator */;
+			targetProxy = CD07D58E215BC19C0039AFE5 /* PBXContainerItemProxy */;
+		};
+		CD6FE4CC215B9BA800BA8AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC45EAA2084A4D300D59D9E /* ContractCalculator */;
+			targetProxy = CD6FE4CB215B9BA800BA8AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CDC45EB22084A4D300D59D9E /* Main.storyboard */ = {
@@ -170,6 +375,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CD07D590215BC19C0039AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89S48T8Y86;
+				INFOPLIST_FILE = ContractCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = xtran.ContractCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContractCalculator.app/ContractCalculator";
+			};
+			name = Debug;
+		};
+		CD07D591215BC19C0039AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89S48T8Y86;
+				INFOPLIST_FILE = ContractCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = xtran.ContractCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContractCalculator.app/ContractCalculator";
+			};
+			name = Release;
+		};
+		CD6FE4CE215B9BA800BA8AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89S48T8Y86;
+				INFOPLIST_FILE = ContractCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = xtran.ContractCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContractCalculator;
+			};
+			name = Debug;
+		};
+		CD6FE4CF215B9BA800BA8AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89S48T8Y86;
+				INFOPLIST_FILE = ContractCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = xtran.ContractCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContractCalculator;
+			};
+			name = Release;
+		};
 		CDC45EBB2084A4D400D59D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -286,38 +579,48 @@
 		};
 		CDC45EBE2084A4D400D59D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCCE8CC870D18772E12CF7E /* Pods-ContractCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G74626U7MS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ContractCalculator",
+				);
 				INFOPLIST_FILE = ContractCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xiatran.Contractor-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiatran.ContractorCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CDC45EBF2084A4D400D59D9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D872DF2953578A82E5973F5 /* Pods-ContractCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G74626U7MS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ContractCalculator",
+				);
 				INFOPLIST_FILE = ContractCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xiatran.Contractor-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiatran.ContractorCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -325,6 +628,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CD07D592215BC19C0039AFE5 /* Build configuration list for PBXNativeTarget "ContractCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD07D590215BC19C0039AFE5 /* Debug */,
+				CD07D591215BC19C0039AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6FE4CD215B9BA800BA8AFB /* Build configuration list for PBXNativeTarget "ContractCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6FE4CE215B9BA800BA8AFB /* Debug */,
+				CD6FE4CF215B9BA800BA8AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDC45EA62084A4D300D59D9E /* Build configuration list for PBXProject "ContractCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

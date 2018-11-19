@@ -7,29 +7,40 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class DisclaimerViewController: UIViewController {
-
+class DisclaimerViewController: UITableViewController, GADBannerViewDelegate {
+  
+  @IBOutlet weak var adBanner: GADBannerView!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        adBannerInfo()
+      adViewDidReceiveAd(adBanner)
     }
-
+  
+  func adBannerInfo() {
+    let request = GADRequest()
+    request.testDevices = [kGADSimulatorID]
+    //set up ad
+    adBanner.adUnitID = "ca-app-pub-2264605657544505/4403882708"
+    adBanner.rootViewController = self
+    adBanner.delegate = self
+    adBanner.load(request)
+  }
+  func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+    print("Banner 3 loaded successfully")
+    let translateTransform = CGAffineTransform(translationX: 0, y: -bannerView.bounds.size.height)
+    bannerView.transform = translateTransform
+    UIView.animate(withDuration: 0.5) {
+      bannerView.transform = CGAffineTransform.identity
+    }
+  }
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+      
 }

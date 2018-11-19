@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>116939968279-8i94nhfgsc7qpr11pi7bccnrn8fk7131.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.116939968279-8i94nhfgsc7qpr11pi7bccnrn8fk7131</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeW0BVm6gBTbEp3SByKWVRFXyyCSKhQtM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>116939968279</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xiatran.Contractor-Calculator</string>
+	<key>PROJECT_ID</key>
+	<string>contractorcalculator-9c8f4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>contractorcalculator-9c8f4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:116939968279:ios:317b157a9cf1e16f</string>
+	<key>DATABASE_URL</key>
+	<string>https://contractorcalculator-9c8f4.firebaseio.com</string>
+</dict>
+</plist>
